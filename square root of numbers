@@ -1,0 +1,17 @@
+//square root of numbers 
+#include <stdio.h>
+#include<math.h>
+int main() 
+{
+    double n,s;
+    printf("enter the number:");
+    scanf("%lf",&n);
+    s=sqrt(n);
+    printf("square root of %.2lf is %.2lf \n",n,s);
+
+    return 0;
+ }
+output:
+enter the number:16
+square root of 16.00 is 4.00 
+

@@ -1,0 +1,25 @@
+//program on find the sum of two number 
+#include<stdio.h>
+int sum(int x,int y);
+int main()
+{
+    int x=10,y=20,k;
+    k=sum(x,y);
+    printf("%d\n",k);
+   k=sum(4,5);
+   printf("%d\n",k);
+    k=sum(x+y,y*2);
+   printf("%d\n",k);
+    return 0;
+}
+int sum(int x,int y)
+{
+    int s;
+    s=x+y;
+    return s;
+    
+}
+out put:
+30
+9
+70

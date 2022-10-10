@@ -1,0 +1,22 @@
+//program on sum 0f two numbers
+#include<stdio.h>
+int sum(int x ,int y);
+int main()
+{
+    int a,b,s;
+    printf("enter value for a and b:");
+    scanf("%d%d",&a,&b);
+    s=sum(a,b);
+    printf("sum = %d\n",s);
+    return 0;
+}
+int sum(int x,int y)
+{
+    int s;
+    s=x+y;
+    return s;
+}
+output:
+enter value for a and b:10 6
+sum = 16
+
